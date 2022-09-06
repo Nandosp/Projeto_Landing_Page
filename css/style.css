@@ -1,56 +1,60 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 
-html,body{
+html, body {
     height: 100%;
 }
+
 /**Divs gerais*/
-.container{
+.container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 
 }
-.clear{
+
+.clear {
     clear: both;
 }
+
 /****/
 
-header{
+header {
     background-color: rgb(220, 220, 220);
     padding: 10px 2% 40px 2%;
 }
-.logo-1{
+
+.logo-1 {
     float: left;
     width: 150px;
     height: 60px;
-   background-image: url(../imagens/logo1.png);
-   background-size: 100% auto;
-   background-repeat:no-repeat ;
-   background-position: center;
+    background-image: url(../imagens/logo1.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.logo-2{
+.logo-2 {
     float: right;
     width: 160px;
     height: 60px;
-   background-image: url(../imagens/logo2.png);
-   background-size: 100% auto;
-   background-repeat:no-repeat ;
-   background-position: center;
-   margin-right: 7%;
+    background-image: url(../imagens/logo2.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 7%;
 }
 
-section.cover-form{
+section.cover-form {
     width: 100%;
-    
+
 }
 
-.bg{
+.bg {
     position: relative;
     background-image: url(../imagens/bg-form.jpg);
     background-size: cover;
@@ -58,44 +62,44 @@ section.cover-form{
     height: 560px;
 }
 
-.form-container{
+.form-container {
     position: absolute;
     right: 30px;
     top: -2.5%;
     width: 400px;
     height: 105%;
-    box-shadow: 1px 1px 2px 1px  rgb(180, 180, 180);
-    background-color:white;
+    box-shadow: 1px 1px 2px 1px rgb(180, 180, 180);
+    background-color: white;
 }
 
-.form-container h2{
-    font-weight:normal;
-    padding:25px 15px;
-    color:black;
-    font-size:18px;
-    background-color:rgb(210, 210, 210);
+.form-container h2 {
+    font-weight: normal;
+    padding: 25px 15px;
+    color: black;
+    font-size: 18px;
+    background-color: rgb(210, 210, 210);
 
 }
 
-.form-container form{
+.form-container form {
     margin-top: 20px;
     padding: 30px;
 }
 
-.form-container form p{
+.form-container form p {
     font-size: 14px;
     color: #525252;
 }
 
-.form-wraper:not(:first-child){
+.form-wraper:not(:first-child) {
     margin-top: 40px;
 }
 
-.form-wraper:last-child{
+.form-wraper:last-child {
     margin-top: 20px;
 }
 
-.form-container form input[type=text]{
+.form-container form input[type=text] {
     width: 100%;
     border: 1px solid;
     height: 45px;
@@ -104,7 +108,7 @@ section.cover-form{
 
 }
 
-.form-container form input[type=submit]{
+.form-container form input[type=submit] {
     background-color: #033c50;
     text-transform: uppercase;
     color: white;
@@ -116,15 +120,15 @@ section.cover-form{
 
 }
 
-section.chamada{
+section.chamada {
     z-index: 1;
     width: 100%;
     text-align: center;
-   
-    
+
+
 }
 
-section.chamada div.container{
+section.chamada div.container {
     background-color: #29526d;
     padding: 70px 0 50px 0;
 
@@ -134,7 +138,7 @@ section.chamada div.container{
 
 
 
-section.chamada h2{
+section.chamada h2 {
     width: 96%;
     color: white;
     max-width: 700px;
@@ -143,7 +147,7 @@ section.chamada h2{
     font-weight: normal;
 }
 
-section.chamada p{
+section.chamada p {
     width: 96%;
     max-width: 700px;
     display: inline-block;
@@ -153,77 +157,78 @@ section.chamada p{
     font-weight: normal;
 }
 
-.flex-mosaico{
+.flex-mosaico {
     display: flex;
     margin: 2px;
 }
 
-.item-1-mosaico{
+.item-1-mosaico {
     background-position: center;
     background-size: cover;
     width: 60%;
-    
-    
+
+
 }
 
-.item-2-mosaico{
-    padding:150px 40px;
+.item-2-mosaico {
+    padding: 150px 40px;
     width: 40%;
     background-color: #e8fdff;
-  
-    
+
+
 }
 
-footer{
+footer {
     text-align: center;
     padding: 20px 0;
-   
+
 }
 
-footer .container{
+footer .container {
     text-align: center;
     padding: 20px 0;
     background-color: rgb(220, 220, 220);
     margin-top: -20px;
 }
 
-footer p{
+footer p {
     margin-top: 8px;
 }
 
-footer img{
+footer img {
     width: 130px;
-    
+
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
-    .flex-mosaico{
+    .flex-mosaico {
         display: block;
     }
 
-    .item-1-mosaico{
+    .item-1-mosaico {
         padding-top: 80%;
         width: 100%;
     }
-    .item-2-mosaico{
+
+    .item-2-mosaico {
         text-align: justify;
         width: 100%;
     }
-    
+
 }
 
 
-@media screen and (max-width: 960px){
-    
-    .bg{
-        height:auto;
-        padding:40px 0;
+@media screen and (max-width: 960px) {
+
+    .bg {
+        height: auto;
+        padding: 40px 0;
         text-align: center;
     }
 
-    .form-container{
-        height:auto;
+    .form-container {
+        height: auto;
         width: 96%;
         max-width: 400px;
         position: static;
@@ -232,14 +237,15 @@ footer img{
 }
 
 
-@media screen  and (max-width:510px){
-    header{
+@media screen and (max-width:510px) {
+    header {
         text-align: center;
     }
-    .logo-1,.logo-2{
+
+    .logo-1, .logo-2 {
         margin-top: 10px;
         display: inline-block;
         float: none;
     }
-    
+
 }
